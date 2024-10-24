@@ -1,83 +1,62 @@
-# TeachOpenCADD
+<div class="Box-sc-g0xbh4-0 QkQOb js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto" _msttexthash="5569785" _msthash="242">蒂奇OpenCADD</h1><a id="user-content-teachopencadd" class="anchor" aria-label="永久链接：TeachOpenCADD" href="#teachopencadd" _mstaria-label="486187" _msthash="243"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="225154579" _msthash="244">使用开源软件包和数据的计算机辅助药物设计 （CADD） 教学平台。</p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/e473e77430eeea581dbcfb885dced83c65fda0956352b7af0ca42c4228e3c95e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f50726f6a6563742d54656163684f70656e434144442d70696e6b"><img src="https://camo.githubusercontent.com/e473e77430eeea581dbcfb885dced83c65fda0956352b7af0ca42c4228e3c95e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f50726f6a6563742d54656163684f70656e434144442d70696e6b" alt="目录" data-canonical-src="https://img.shields.io/badge/Project-TeachOpenCADD-pink" style="max-width: 100%;" _mstalt="23699" _msthash="245"></a>
+<a href="https://doi.org/10.5281/zenodo.1486226" rel="nofollow"><img src="https://camo.githubusercontent.com/45e8820536745248ed44ec72f982f4968a421b68a08b79e50ca197736b92c7d2/68747470733a2f2f7a656e6f646f2e6f72672f62616467652f444f492f31302e353238312f7a656e6f646f2e313438363232362e737667" alt="数字对象标识符" data-canonical-src="https://zenodo.org/badge/DOI/10.5281/zenodo.1486226.svg" style="max-width: 100%;" _mstalt="22945" _msthash="246"></a></p>
 
-A teaching platform for computer-aided drug design (CADD) using open source packages and data.
+<p dir="auto"><a href="https://mybinder.org/v2/gh/volkamerlab/TeachOpenCADD/master" rel="nofollow"><img src="https://camo.githubusercontent.com/7861126a7eb56440456a50288331e87b9604edbaa125354195637561fd400014/68747470733a2f2f6d7962696e6465722e6f72672f62616467655f6c6f676f2e737667" alt="粘结 剂" data-canonical-src="https://mybinder.org/badge_logo.svg" style="max-width: 100%;" _mstalt="75023" _msthash="247"></a>
+<a href="https://creativecommons.org/licenses/by/4.0/" rel="nofollow"><img src="https://camo.githubusercontent.com/5d664d38d568b3aff86b402e88c103a392194dba23100230a329ee81f61d89a6/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d43432532304259253230342e302d6c69676874677265792e737667" alt="授权协议： CC BY 4.0" data-canonical-src="https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg" style="max-width: 100%;" _mstalt="204165" _msthash="248"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/b9db91821802981ccb54678903f2282e058bea8ea7ca85540e43ebb061968efa/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f7461672f766f6c6b616d65726c61622f74656163686f70656e63616464"><img src="https://camo.githubusercontent.com/b9db91821802981ccb54678903f2282e058bea8ea7ca85540e43ebb061968efa/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f7461672f766f6c6b616d65726c61622f74656163686f70656e63616464" alt="GitHub 标记（按日期最新）" data-canonical-src="https://img.shields.io/github/v/tag/volkamerlab/teachopencadd" style="max-width: 100%;" _mstalt="529321" _msthash="249"></a>
+<a href="https://github.com/volkamerlab/teachopencadd/actions?query=branch%3Amaster+workflow%3ACI"><img src="https://github.com/volkamerlab/teachopencadd/workflows/CI/badge.svg" alt="GH Actions CI" style="max-width: 100%;" _mstalt="158665" _msthash="250"></a>
+<a href="https://projects.volkamerlab.org/teachopencadd/" rel="nofollow"><img src="https://github.com/volkamerlab/teachopencadd/workflows/Docs/badge.svg" alt="GH Actions 文档" style="max-width: 100%;" _mstalt="218842" _msthash="251"></a>
+<a href="https://anaconda.org/conda-forge/teachopencadd" rel="nofollow"><img src="https://camo.githubusercontent.com/557a43156a4ae134bf94e21fa12a4f067a9b1890ccc0f06f339851b415dcd901/68747470733a2f2f616e61636f6e64612e6f72672f636f6e64612d666f7267652f74656163686f70656e636164642f6261646765732f646f776e6c6f6164732e737667" alt="Anaconda-Server 徽章" data-canonical-src="https://anaconda.org/conda-forge/teachopencadd/badges/downloads.svg" style="max-width: 100%;" _mstalt="417417" _msthash="252"></a></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/e7f492b3962bcdafef64b8189de9cccfe88f6d46aa7c882f3f73613d34119d8c/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732d70722d636c6f7365642d7261772f766f6c6b616d65726c61622f74656163686f70656e63616464"><img src="https://camo.githubusercontent.com/e7f492b3962bcdafef64b8189de9cccfe88f6d46aa7c882f3f73613d34119d8c/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732d70722d636c6f7365642d7261772f766f6c6b616d65726c61622f74656163686f70656e63616464" alt="GitHub 已关闭 pr" data-canonical-src="https://img.shields.io/github/issues-pr-closed-raw/volkamerlab/teachopencadd" style="max-width: 100%;" _mstalt="257309" _msthash="253"></a> <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/6baaf8481552774795959da29b39e5ba53b1a17723c145f7c6bbdd1d5ec49e34/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732d70722d7261772f766f6c6b616d65726c61622f74656163686f70656e63616464"><img src="https://camo.githubusercontent.com/6baaf8481552774795959da29b39e5ba53b1a17723c145f7c6bbdd1d5ec49e34/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732d70722d7261772f766f6c6b616d65726c61622f74656163686f70656e63616464" alt="GitHub 打开 pr" data-canonical-src="https://img.shields.io/github/issues-pr-raw/volkamerlab/teachopencadd" style="max-width: 100%;" _mstalt="205478" _msthash="254"></a> <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/b513873a640023951774632f39e7c94aa5732601ccfcbc96b37c6f3376e07cbf/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732d636c6f7365642d7261772f766f6c6b616d65726c61622f74656163686f70656e63616464"><img src="https://camo.githubusercontent.com/b513873a640023951774632f39e7c94aa5732601ccfcbc96b37c6f3376e07cbf/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732d636c6f7365642d7261772f766f6c6b616d65726c61622f74656163686f70656e63616464" alt="GitHub 已关闭的问题" data-canonical-src="https://img.shields.io/github/issues-closed-raw/volkamerlab/teachopencadd" style="max-width: 100%;" _mstalt="386776" _msthash="255"></a> <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/0e4e4b576ee1f5a29ad2792b24f81f47a135f251eee898ca5091f19f06d6451e/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732f766f6c6b616d65726c61622f74656163686f70656e63616464"><img src="https://camo.githubusercontent.com/0e4e4b576ee1f5a29ad2792b24f81f47a135f251eee898ca5091f19f06d6451e/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732f766f6c6b616d65726c61622f74656163686f70656e63616464" alt="GitHub 未解决的问题" data-canonical-src="https://img.shields.io/github/issues/volkamerlab/teachopencadd" style="max-width: 100%;" _mstalt="323453" _msthash="256"></a></p>
+<blockquote>
+<p dir="auto" _msttexthash="630028971" _msthash="257">如果您在出版物中使用 TeachOpenCADD，
+请<a href="https://projects.volkamerlab.org/teachopencadd/citation.html" rel="nofollow" _istranslated="1">引用</a>我们！
+如果您在课堂上使用 TeachOpenCADD，请包含返回我们存储库的链接。</p>
+</blockquote>
 
-![TOC](https://img.shields.io/badge/Project-TeachOpenCADD-pink)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1486226.svg)](https://doi.org/10.5281/zenodo.1486226)
+<blockquote>
+<p dir="auto" _msttexthash="455702949" _msthash="258">无论如何，请为您认为对您的学习/教学活动有用的存储库<a href="https://docs.github.com/en/get-started/exploring-projects-on-github/saving-repositories-with-stars" _istranslated="1">加注星标</a>（并告诉您的学生加注星标）。</p>
+</blockquote>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="6157333" _msthash="259">描述</h2><a id="user-content-description" class="anchor" aria-label="永久链接：描述" href="#description" _mstaria-label="480597" _msthash="260"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p align="center" dir="auto">
+  <a target="_blank" rel="noopener noreferrer" href="/volkamerlab/teachopencadd/blob/master/docs/_static/images/TeachOpenCADD_topics.png"><img src="/volkamerlab/teachopencadd/raw/master/docs/_static/images/TeachOpenCADD_topics.png" alt="TeachOpenCADD 主题" width="800" style="max-width: 100%;" _mstalt="381485" _msthash="261"></a>
+  <br><font _mstmutation="1" _msttexthash="251445181" _msthash="262">图改编自 TeachOpenCADD 出版物中的图 1 <a href="https://jcheminf.biomedcentral.com/articles/10.1186/s13321-019-0351-x" rel="nofollow" _mstmutation="1" _istranslated="1"> （D. Sydow <i _istranslated="1">et al.</i>， J. Cheminformatics， 2019）。</a></font></p>
+<p dir="auto" _msttexthash="2582625188" _msthash="263">用于化学信息学和结构生物信息学的开源编程包是为计算机辅助药物设计 （CADD） 构建模块化、可重现和可重用管道的强大工具。虽然这些工具的文档可用，但只有少数可免费访问的示例教授了专注于 CADD 应用程序的基本概念，特别是针对该领域的新用户。</p>
+<p dir="auto" _msttexthash="1603574947" _msthash="264">TeachOpenCADD 是一个由学生为学生开发的教学平台，为 CADD 的中心主题提供教材。由于我们涵盖了这些主题的理论和实践方面，因此该平台面向具有生物/化学和计算背景的学生和研究人员。</p>
+<p dir="auto"><font _mstmutation="1" _msttexthash="2243584499" _msthash="265">每个主题都包含在交互式 Jupyter Notebook 中，使用开源包，例如 Python 包、、、 和 （<a href="https://projects.volkamerlab.org/teachopencadd/external_dependencies.html" rel="nofollow" _mstmutation="1" _istranslated="1">在此处</a>查找完整列表）。主题不断扩展，并开放给社区贡献。除了教学目的之外，TeachOpenCADD 材料还可以作为用户以项目为导向的修改和扩展的起点。</font><code>rdkit</code><code>pypdb</code><code>biopandas</code><code>nglview</code><code>mdanalysis</code></p>
+<p dir="auto" _msttexthash="497023345" _msthash="266"><strong _istranslated="1">新版本</strong>：我们扩展了 TeachOpenCADD 平台，增加了 6 个 notebook，介绍了深度学习及其在 CADD 相关主题中的应用。</p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="10883795" _msthash="267">开始使用</h2><a id="user-content-get-started" class="anchor" aria-label="永久链接： 开始" href="#get-started" _mstaria-label="440895" _msthash="268"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
 
-<!-- markdown-link-check-disable-next-line -->
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/volkamerlab/TeachOpenCADD/master)
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/volkamerlab/teachopencadd)
-[![GH Actions CI ](https://github.com/volkamerlab/teachopencadd/workflows/CI/badge.svg)](https://github.com/volkamerlab/teachopencadd/actions?query=branch%3Amaster+workflow%3ACI)
-[![GH Actions Docs](https://github.com/volkamerlab/teachopencadd/workflows/Docs/badge.svg)](https://projects.volkamerlab.org/teachopencadd/)
-[![Anaconda-Server Badge](https://anaconda.org/conda-forge/teachopencadd/badges/downloads.svg)](https://anaconda.org/conda-forge/teachopencadd)
+<p dir="auto"><a href="https://projects.volkamerlab.org/teachopencadd/" rel="nofollow"><img src="https://github.com/volkamerlab/teachopencadd/workflows/Docs/badge.svg" alt="GH Actions 文档" style="max-width: 100%;" _mstalt="218842" _msthash="269"></a>
+<a href="https://mybinder.org/v2/gh/volkamerlab/TeachOpenCADD/master" rel="nofollow"><img src="https://camo.githubusercontent.com/7861126a7eb56440456a50288331e87b9604edbaa125354195637561fd400014/68747470733a2f2f6d7962696e6465722e6f72672f62616467655f6c6f676f2e737667" alt="粘结 剂" data-canonical-src="https://mybinder.org/badge_logo.svg" style="max-width: 100%;" _mstalt="75023" _msthash="270"></a></p>
 
-![GitHub closed pr](https://img.shields.io/github/issues-pr-closed-raw/volkamerlab/teachopencadd) ![GitHub open pr](https://img.shields.io/github/issues-pr-raw/volkamerlab/teachopencadd) ![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/volkamerlab/teachopencadd) ![GitHub open issues](https://img.shields.io/github/issues/volkamerlab/teachopencadd)
+<p dir="auto" _msttexthash="201062667" _msthash="271">如果您迫不及待地想通读这些材料，请转到<a href="https://projects.volkamerlab.org/teachopencadd/talktorials.html" rel="nofollow" _istranslated="1">此处</a>的只读版本。</p>
+<p dir="auto" _msttexthash="164970832" _msthash="272">如果您想执行提供的笔记本，我们提供两种可能性：</p>
 
-> If you use TeachOpenCADD in a publication,
-> please [cite](https://projects.volkamerlab.org/teachopencadd/citation.html) us!
-> If you use TeachOpenCADD in class, please include a link back to our repository.
-<!-- markdown-link-check-disable-next-line -->
-> In any case, please [star](https://docs.github.com/en/get-started/exploring-projects-on-github/saving-repositories-with-stars)
-> (and tell your students to star) those repositories you consider useful for your learning/teaching activities.
+<ul dir="auto">
+<li><font _mstmutation="1" _msttexthash="921557078" _msthash="274">感谢 <a href="https://mybinder.org/" rel="nofollow" _mstmutation="1" _istranslated="1">Binder</a> 在线。这大约需要 10 分钟来准备，但不需要您进行任何类型的设置。单击此处开始： <a href="https://mybinder.org/v2/gh/volkamerlab/TeachOpenCADD/master" rel="nofollow" _mstmutation="1" _istranslated="1"><img src="https://camo.githubusercontent.com/7861126a7eb56440456a50288331e87b9604edbaa125354195637561fd400014/68747470733a2f2f6d7962696e6465722e6f72672f62616467655f6c6f676f2e737667" alt="粘结 剂" data-canonical-src="https://mybinder.org/badge_logo.svg" style="max-width: 100%;" _mstalt="75023" _msthash="273" _istranslated="1"></a>.加载后，您可以导航到以查找可执行笔记本。</font><code>teachopencadd/talktorials/</code></li>
+<li><font _mstmutation="1" _msttexthash="233339977" _msthash="275">本地使用我们的软件包。有关更多详细信息<a href="https://projects.volkamerlab.org/teachopencadd/installing.html" rel="nofollow" _mstmutation="1" _istranslated="1">，请参阅文档的此部分</a>。</font><code>conda</code></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="36163959" _msthash="276">TeachOpenCADD KNIME 工作流程</h2><a id="user-content-teachopencadd-knime-workflows" class="anchor" aria-label="永久链接： TeachOpenCADD KNIME 工作流程" href="#teachopencadd-knime-workflows" _mstaria-label="1150851" _msthash="277"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
 
-## Description
-
-<p align="center">
-  <img src="docs/_static/images/TeachOpenCADD_topics.png" alt="TeachOpenCADD topics" width="800"/>
-  <br>
-  <font size="1">
-  Figure adapted from Figure 1 in the TeachOpenCADD publication
-  <a href="https://jcheminf.biomedcentral.com/articles/10.1186/s13321-019-0351-x">
-  (D. Sydow <i>et al.</i>, J. Cheminformatics, 2019)</a>.
-  </font>
-</p>
-
-Open source programming packages for cheminformatics and structural bioinformatics are powerful tools to build modular, reproducible, and reusable pipelines for computer-aided drug design (CADD). While documentation for such tools is available, only few freely accessible examples teach underlying concepts focused on CADD applications, addressing especially users new to the field.
-
-TeachOpenCADD is a teaching platform developed by students for students, which provides teaching material for central CADD topics. Since we cover both the theoretical as well as practical aspect of these topics, the platform addresses students and researchers with a biological/chemical as well as a computational background.
-
-Each topic is covered in an interactive Jupyter Notebook, using open source packages such as the Python packages `rdkit`, `pypdb`, `biopandas`, `nglview`, and `mdanalysis` (find the full list [here](https://projects.volkamerlab.org/teachopencadd/external_dependencies.html)). Topics are continuously expanded and open for contributions from the community. Beyond their teaching purpose, the TeachOpenCADD material can serve as starting point for users’ project-directed modifications and extensions.
-
-
-**New edition**: we have extended the TeachOpenCADD platform with 6 notebooks introducing deep learning and its application to CADD related topics. 
-
-## Get started
-
-<!-- markdown-link-check-disable -->
-[![GH Actions Docs](https://github.com/volkamerlab/teachopencadd/workflows/Docs/badge.svg)](https://projects.volkamerlab.org/teachopencadd/)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/volkamerlab/TeachOpenCADD/master)
-<!-- markdown-link-check-enable -->
-
-If you can't wait and just want to read through the materials, please go to the read-only version [here](https://projects.volkamerlab.org/teachopencadd/talktorials.html).
-
-If you'd like to execute the provided notebooks, we offer two possibilities:
-
-<!-- markdown-link-check-disable-next-line -->
-- Online thanks to [Binder](https://mybinder.org/). This takes around 10 minutes to get ready, but does not require any kind of setup on your end. Click here to get started: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/volkamerlab/TeachOpenCADD/master). Once it has loaded, you can navigate to `teachopencadd/talktorials/` to find the executable notebooks.
-- Locally using our `conda` package. More details in this [section of the documentation](https://projects.volkamerlab.org/teachopencadd/installing.html).
-
-## TeachOpenCADD KNIME workflows
-
-<!-- markdown-link-check-disable-next-line -->
-[![DOI](https://img.shields.io/badge/DOI-10.1021%2Facs.jcim.9b00662-blue.svg)](https://pubs.acs.org/doi/10.1021/acs.jcim.9b00662)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3626897.svg)](https://doi.org/10.5281/zenodo.3626897)
-[![KNIME Hub](https://img.shields.io/badge/KNIME%20Hub-TeachOpenCADD--KNIME-yellow.svg)](https://hub.knime.com/-/spaces/-/~xYhrR1mfFcGNxz7I/current-state/)
-
-If you prefer to work in the context of a graphical interface, talktorials T001-T008 are also available as [KNIME workflows](https://hub.knime.com/-/spaces/-/~xYhrR1mfFcGNxz7I/current-state/). Questions regarding this version should be addressed using the "Discussion section" available at [this post](https://forum.knime.com/t/teachopencadd-knime/17174). You need to create a KNIME account to use the forum.
-
-## About TeachOpenCADD
-
-- [Contact](https://projects.volkamerlab.org/teachopencadd/contact.html)
-- [Acknowledgments](https://projects.volkamerlab.org/teachopencadd/acknowledgments.html)
-- [Citation](https://projects.volkamerlab.org/teachopencadd/citation.html)
-- [License](https://projects.volkamerlab.org/teachopencadd/license.html)
-- [Funding](https://projects.volkamerlab.org/teachopencadd/funding.html)
-
-
-## External resources
-
-Please refer to our TeachOpenCADD website to find a list of external resources:
-- [External packages and webservices](https://projects.volkamerlab.org/teachopencadd/external_dependencies.html) that are used in the TeachOpenCADD material
-- [Further reading material](https://projects.volkamerlab.org/teachopencadd/external_tutorials_collections.html) on Python programming, cheminformatics, structural bioinformatics, and more.
+<p dir="auto"><a href="https://pubs.acs.org/doi/10.1021/acs.jcim.9b00662" rel="nofollow"><img src="https://camo.githubusercontent.com/85ca87336d50eca26d2491273f3004482d99195036d6c4a023a6165253029425/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f444f492d31302e313032312532466163732e6a63696d2e396230303636322d626c75652e737667" alt="数字对象标识符" data-canonical-src="https://img.shields.io/badge/DOI-10.1021%2Facs.jcim.9b00662-blue.svg" style="max-width: 100%;" _mstalt="22945" _msthash="278"></a>
+<a href="https://doi.org/10.5281/zenodo.3626897" rel="nofollow"><img src="https://camo.githubusercontent.com/19310e45fc51cf7a8453ba384d6150ebbacbdcae5432ea07f6cfe9a5209a8d68/68747470733a2f2f7a656e6f646f2e6f72672f62616467652f444f492f31302e353238312f7a656e6f646f2e333632363839372e737667" alt="数字对象标识符" data-canonical-src="https://zenodo.org/badge/DOI/10.5281/zenodo.3626897.svg" style="max-width: 100%;" _mstalt="22945" _msthash="279"></a>
+<a href="https://hub.knime.com/-/spaces/-/~xYhrR1mfFcGNxz7I/current-state/" rel="nofollow"><img src="https://camo.githubusercontent.com/ac227f64bff22f875d2a6c476c4a5b87ae83a049b719b00d252db1ee00ed6080/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4b4e494d452532304875622d54656163684f70656e434144442d2d4b4e494d452d79656c6c6f772e737667" alt="KNIME 集线器" data-canonical-src="https://img.shields.io/badge/KNIME%20Hub-TeachOpenCADD--KNIME-yellow.svg" style="max-width: 100%;" _mstalt="92196" _msthash="280"></a></p>
+<p dir="auto" _msttexthash="1372890506" _msthash="281">如果您更喜欢在图形界面环境中工作，Talktorials T001-T008 也可用作 <a href="https://hub.knime.com/-/spaces/-/~xYhrR1mfFcGNxz7I/current-state/" rel="nofollow" _istranslated="1">KNIME 工作流程</a>。有关此版本的问题应使用<a href="https://forum.knime.com/t/teachopencadd-knime/17174" rel="nofollow" _istranslated="1">本文</a>中的“讨论部分”来解决。您需要创建一个 KNIME 帐户才能使用该论坛。</p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="4208243" _msthash="282">关于 TeachOpenCADD</h2><a id="user-content-about-teachopencadd" class="anchor" aria-label="永久链接：关于 TeachOpenCADD" href="#about-teachopencadd" _mstaria-label="688064" _msthash="283"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://projects.volkamerlab.org/teachopencadd/contact.html" rel="nofollow" _msttexthash="6317012" _msthash="284">联系</a></li>
+<li><a href="https://projects.volkamerlab.org/teachopencadd/acknowledgments.html" rel="nofollow" _msttexthash="6523322" _msthash="285">确认</a></li>
+<li><a href="https://projects.volkamerlab.org/teachopencadd/citation.html" rel="nofollow" _msttexthash="4918095" _msthash="286">引文</a></li>
+<li><a href="https://projects.volkamerlab.org/teachopencadd/license.html" rel="nofollow" _msttexthash="9675445" _msthash="287">许可证</a></li>
+<li><a href="https://projects.volkamerlab.org/teachopencadd/funding.html" rel="nofollow" _msttexthash="7173140" _msthash="288">资金</a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="13844038" _msthash="289">外部资源</h2><a id="user-content-external-resources" class="anchor" aria-label="永久链接：外部资源" href="#external-resources" _mstaria-label="742001" _msthash="290"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="180380577" _msthash="291">请参阅我们的 TeachOpenCADD 网站以查找外部资源列表：</p>
+<ul dir="auto">
+<li _msttexthash="102600420" _msthash="292">TeachOpenCADD 材料中使用的<a href="https://projects.volkamerlab.org/teachopencadd/external_dependencies.html" rel="nofollow" _istranslated="1">外部包和 Web 服务</a></li>
+<li _msttexthash="227557031" _msthash="293"><a href="https://projects.volkamerlab.org/teachopencadd/external_tutorials_collections.html" rel="nofollow" _istranslated="1">进一步阅读</a>有关 Python 编程、化学信息学、结构生物信息学等的材料。</li>
+</ul>
+</article></div>
